@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+.segundo{
+ color: red;
+ font-size: 20px;
+ text-align: justify;
+ text-indent: 20px;
+ font-weight: bold;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#teste{
+  color:blue;
+
+}
+p{
+    background-color: aqua;
+    border: 5px solid black; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}

@@ -1,0 +1,85 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    .cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 35px;
+    border: 5px solid crimson;
+    position: fixed;
+    
+    }
+    
+    .home{
+    width: 120px;
+    height: 40px;
+    background-color: deepskyblue;
+    padding: 13px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 36px;
+    background-color: rgba(9, 6, 18, 0.5);
+    border: 5px solid rgba(255, 255, 255, 4);
+    color: aliceblue;
+    
+    }
+    
+    #opcao{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        font-size: 30px;
+        top: 90px;
+        left: 320px;
+    }
+    .home:hover{
+        border: 5px solid rgb(25, 25, 32);
+        cursor: pointer;
+        background-color: rgb(62, 150, 56);
+        transition: all .5s;
+        color: rgb (250, 246, 246)
+    }
+    
+    .rodape{
+        background-color: crimson;
+        height: 20px;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .conteudo{
+        font-style: 30px;
+        text-align: justify;
+        padding: 30px;
+        background-image:url("imagens/nucleo.PNG");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        color:aliceblue;
+    
+    }
+    a{
+        text-decoration: none;
+        color: #f9f7f7;
+    }
+    a:visited {
+        color: #f9f7f7;
+    }
+    a:active{
+        color: #f9f7f7;
+    }
+    .h1{
+        font-size: larger;
+    }
